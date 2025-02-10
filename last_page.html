@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time2Eat</title>
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <section id="bigbox">
+        <nav class="navbar">
+            <div class="navone">
+                <img src="images/logo.png" alt="" style="width: 35px; height: 35px;">
+                <h4>Time2Eat</h4>
+            </div>
+            <div class="navtwo">
+                <img src="images/mini.png" class="min" alt="" style="height: 39px; width: 38px;">
+                <img src="images/close.png" class="ex" alt="" style="height: 37px;width: 40px;">
+            </div>
+        </nav>
+        <div class="border3">
+            <audio src="images/beep.mp3" id="aud" autoplay loop></audio>
+            <img src="images/noodles.gif" alt="" style="width: 130px; height: 130px;">
+           <p>Your order is done !</p>
+           <div>
+            <button id="stopp">Stop</button>
+            <button id="home">Home</button>
+           </div>
+        </div>
+       
+        
+        <script src="renderer.js"></script>
+        <script>
+            var aud = document.getElementById('aud');
+            var stopp = document.getElementById('stopp');
+            stopp.addEventListener('click',()=>
+        {
+            aud.pause();
+            beepSound.currentTime = 0;
+        })
+        document.getElementById('home').addEventListener('click',()=>
+    {
+        window.location.href = 'index.html';
+    })
+
+        </script>
+    </section>
+</body>
+
+</html>

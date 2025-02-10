@@ -1,0 +1,48 @@
+{
+  "name": "my-restaurant-app",
+  "version": "1.0.0",
+  "description": "Bro It's Time To Eat",
+  "license": "ISC",
+  "author": "sherrii",
+  "type": "commonjs",
+  "main": "main.js",
+  "build": {
+    "appId": "com.myapp.time2eat",
+    "productName": "Time2Eat",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "images/**/*",
+      "node_modules/**/*",
+      "sass/**/*",
+      "*.html",
+      "main.js",
+      "renderer.js",
+      "dist/**/*",
+      "icon.ico"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icon.png"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "compile-sass": "sass sass/:dist/"
+  },
+  "devDependencies": {
+    "electron": "^34.1.1",
+    "electron-builder": "^25.1.8",
+    "sass": "^1.84.0"
+  }
+}

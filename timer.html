@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time2Eat</title>
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <section id="bigbox">
+        <nav class="navbar">
+            <div class="navone">
+                <img src="images/logo.png" alt="" style="width: 35px; height: 35px;">
+                <h4>Time2Eat</h4>
+            </div>
+            <div class="navtwo">
+                <img src="images/mini.png" class="min" alt="" style="height: 39px; width: 38px;">
+                <img src="images/close.png" class="ex" alt="" style="height: 37px;width: 40px;">
+            </div>
+        </nav>
+
+        <div class="border2">
+            <h6>Your order is being prepared...</h6>
+            <img src="images/eat.gif" alt="" style="width: 150px; height: 150px;">
+            <h6 id="sec">20</h6>
+        </div>
+        <script>
+            var sec = document.getElementById('sec');
+
+            var time = 20;
+            const count = setInterval(() => {
+                time--;
+                sec.textContent = time;
+                if (time === 0) {
+                    clearInterval(count);
+                    window.location.href = 'last_page.html';
+                }
+            }, 1000)
+        </script>
+        <script src="renderer.js"></script>
+    </section>
+</body>
+
+</html>
