@@ -9,7 +9,7 @@ A simple restaurant-themed desktop application built using **Electron.js**. It a
 - **Order Notification**: Plays a beep sound when the order is ready.  
 
 ## Installation  
-1. Download the latest release from the [GitHub Releases](YOUR_GITHUB_RELEASE_LINK_HERE).  
+1. Download the latest release from the [GitHub Releases](https://github.com/Sherin-Jebamalar-M/My-Restaurant-App/releases).  
 2. Extract the ZIP file and open the `Mini-Restaurant.exe` file.  
 3. Enjoy your restaurant experience!  
 
