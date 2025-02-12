@@ -10,7 +10,7 @@ A simple restaurant-themed desktop application built using **Electron.js**. It a
 
 ## Installation  
 1. Download the latest release from the [GitHub Releases](https://github.com/Sherin-Jebamalar-M/My-Restaurant-App/releases).  
-2. Extract the ZIP file and open the `Mini-Restaurant.exe` file.  
+2. Extract the ZIP file and open the `Time2Eat.exe` file.  
 3. Enjoy your restaurant experience!  
 
 ## Technologies Used  
