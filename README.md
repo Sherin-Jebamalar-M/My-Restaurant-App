@@ -23,7 +23,13 @@ A simple restaurant-themed desktop application built using **Electron.js**. It a
 ![Home Page](./images/Screenshot1.png)
 
 ### Menu Page
-![Menu Page](./images/menu.png)
+![Menu Page](./images/Screenshot2.png)
+
+### Timer 
+![Home Page](./images/Screenshot3.png)
+
+### Notification
+![Menu Page](./images/Screenshot4.png)
 
 
 ## License  
