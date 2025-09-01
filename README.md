@@ -15,7 +15,16 @@ A simple restaurant-themed desktop application built using **Electron.js**. It a
 
 ## Technologies Used  
 - **Electron.js**  
-- **HTML, CSS, JavaScript**  
+- **HTML, CSS, JavaScript**
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./images/Screenshot1.png)
+
+### Menu Page
+![Menu Page](./images/menu.png)
+
 
 ## License  
 This project is open-source and free to use.  
