@@ -31,6 +31,7 @@ A simple restaurant-themed desktop application built using **Electron.js**. It a
 ### Notification
 ![Menu Page](./images/Screenshot1.png)
 
+Give a ⭐ if you like this project
 
 ## License  
 This project is open-source and free to use.  
